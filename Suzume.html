@@ -1,0 +1,4959 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Detect.js/2.2.2/detect.min.js"></script>
+
+
+    <title>Droskop - Suzume (2023) </title>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <meta name="robots" content="noindex">
+    <meta name="google" content="noindex">
+    <meta name="Slurp" content="noindex">
+    <meta name="msnbot" content="noindex">
+    <meta name="bingbot" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/zenscroll-min.js"></script>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta charset="utf-8" />
+
+
+    <script language='javascript' type='text/javascript'>
+        if (top != self) {
+            top.location.href = location.href;
+        }
+
+
+        if (location.protocol == 'http:') {
+            location.replace(`https:${location.href.substring(location.protocol.length)}`);
+        }
+
+
+        function searchactive() {
+            document.getElementById("mod_search_searchword").focus();
+        }
+
+        $(function () {
+            // Desired offset, in pixels
+            var offset = -50;
+            // Desired time to scroll, in milliseconds
+            var scrollTime = 500;
+
+            $('a[href^="#"]').click(function () {
+                // Need both `html` and `body` for full browser support
+                $("html, body").animate({
+                    scrollTop: $($(this).attr("href")).offset().top + offset
+                }, scrollTime);
+
+                // Prevent the jump/flash
+                return false;
+            });
+        });
+
+    </script>
+
+
+    <style id="compiled-css" type="text/css">
+        textarea:focus,
+        input:focus {
+            outline: dashed #3c3122;
+        }
+
+        .couleur1 {
+            transition-duration: 2s;
+            background-color: #1f1f1f;
+            overflow-wrap: break-word;
+        }
+
+        .couleur2 {
+
+            background-color: #3c3122;
+            overflow-wrap: break-word;
+        }
+    </style>
+
+
+
+
+
+
+
+    <style>
+        body,
+        .smooth-container {
+            scroll-behavior: smooth
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+        body {
+            font-family: Raleway, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: #202020;
+            color: #818181;
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: auto;
+            margin-top: 61px
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+
+
+
+        /* acceuil */
+
+
+        .lienrecherche {
+
+            margin-right: -46px;
+
+        }
+
+        .column1 {
+            float: left;
+            width: 70%;
+            padding: 10px;
+
+            border-right: 1px solid #3c3122;
+        }
+
+
+
+
+        .column2 {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            padding-top: 10px;
+        }
+
+
+
+
+
+
+        /* menu */
+
+        .column3 {
+            float: left;
+
+        }
+
+
+        .column4 {
+            z-index: 99;
+            float: left;
+            top: -19px;
+            width: 75%;
+            position: fixed;
+            left: 53%;
+            margin-left: -37.5%;
+
+        }
+
+
+        .columnSEARCH {
+            z-index: 99;
+
+            top: 5px;
+
+            position: fixed;
+            left: 50%;
+            margin-right: -37.5%;
+
+        }
+
+        .svgcomment {
+            position: relative;
+            top: 11px;
+            width: 43px;
+            height: 38px;
+            padding-left: 10px;
+            margin-left: -5px;
+
+        }
+
+        .svgcomment:hover {
+
+            width: 36px;
+
+        }
+
+        .svgplayer {
+
+            padding-right: 10px;
+            border-right: 1px solid #bebcbc;
+            position: relative;
+            top: 11px;
+            width: 43px;
+            height: 38px;
+            margin-left: 4px;
+
+        }
+
+        .svgplayer:hover {
+
+            width: 36px;
+
+        }
+
+        .svgsynopsis {
+
+            padding-right: 10px;
+            border-right: 1px solid #bebcbc;
+            position: relative;
+            top: 11px;
+            width: 43px;
+            height: 38px;
+
+        }
+
+        .svgsynopsis:hover {
+
+            width: 36px;
+
+        }
+
+
+        .svgaffiche {
+
+            padding-right: 10px;
+            border-right: 1px solid #bebcbc;
+            position: relative;
+            top: 11px;
+            width: 43px;
+            height: 38px;
+
+
+        }
+
+        .svgaffiche:hover {
+
+            width: 36px;
+
+        }
+
+
+        .svgsearch {
+
+            width: 46px;
+            height: 40px;
+            left: 455px;
+            position: relative;
+            border: 1px solid #ffe46f;
+            padding: 3px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            border-radius: 2px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+        }
+
+        .svgsearch:hover {
+
+            background-color: #606260;
+
+        }
+
+
+
+        .logo {
+
+            z-index: 9999;
+            position: fixed;
+            top: 4px;
+            border-radius: 2px;
+            display: flex;
+            width: 160px;
+            height: 42px;
+            padding: 3px;
+            padding-top: 6px;
+            justify-content: space-around;
+
+        }
+
+
+        /* search */
+
+        .column5 {
+            float: left;
+            width: 100%;
+            padding: 20px;
+            padding-top: 18px;
+            border-radius: 2px;
+        }
+
+
+        /* between search and header */
+
+        .column6 {
+            float: left;
+            width: 100%;
+        }
+
+
+        /* fixed derniers ajout - mobile responsive only */
+
+        .column7 {
+            position: fixed;
+            float: left;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            z-index: 99;
+            display: none;
+            margin-top: 50px;
+        }
+
+
+        /* fixed derniers critique - mobile responsive only */
+
+        .column8 {
+            position: fixed;
+            float: left;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            z-index: 99;
+            display: none;
+            margin-top: 50px;
+        }
+
+
+        /* fixed ENGLOBE derniers critique et ajout - accueil - deskop responsive only */
+
+        .column9 {
+            position: fixed;
+            float: left;
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+            left: 0px;
+            top: 0px;
+            z-index: 99;
+            display: none;
+            left: 50%;
+            transform: translate(-50%, 0);
+            margin-top: 50px;
+        }
+
+
+        /* fixed derniers critique DANS COLUMN9 - accueil - deskop responsive only */
+
+        .column10 {
+            float: left;
+            width: 70%;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+
+        /* fixed derniers ajouts DANS COLUMN9 - accueil - deskop responsive only */
+
+        .column11 {
+            float: left;
+            width: 30%;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+
+        /* fixed navigation bar bottom ENGLOBE fleche haut derniers ajout critique */
+
+        .column12 {
+            position: fixed;
+            z-index: 99;
+            bottom: -13px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+
+
+
+
+        /* fixed ENGLOBE derniers critique et ajout - accueil - deskop responsive only */
+
+        .column13 {
+            position: fixed;
+            float: left;
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+            left: 0px;
+            top: 0px;
+            z-index: 88;
+            display: none;
+            left: 50%;
+            transform: translate(-50%, 0);
+            margin-top: 50px;
+
+        }
+
+
+        /* fixed derniers critique DANS COLUMN9 - accueil - deskop responsive only */
+
+        .column14 {
+            float: left;
+            width: 70%;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+
+        /* fixed derniers ajouts DANS COLUMN9 - accueil - deskop responsive only */
+
+        .column15 {
+            float: left;
+            width: 30%;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+
+        /* fixed derniers ajout - mobile responsive only */
+
+        .column16 {
+            position: fixed;
+            float: left;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            z-index: 99;
+            display: none;
+            margin-top: 50px;
+        }
+
+
+
+
+        /* fixed ENGLOBE derniers critique et ajout - accueil - deskop responsive only */
+
+        .column17 {
+            position: fixed;
+            float: left;
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+            left: 0px;
+            top: 0px;
+            z-index: 95;
+            display: none;
+            left: 50%;
+            transform: translate(-50%, 0);
+            margin-top: 50px;
+
+        }
+
+
+        /* fixed derniers critique DANS COLUMN9 - accueil - deskop responsive only */
+
+        .column18 {
+            float: left;
+            width: 70%;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+
+        /* fixed derniers ajouts DANS COLUMN9 - accueil - deskop responsive only */
+
+        .column19 {
+            float: left;
+            width: 30%;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+
+        /* fixed derniers ajout - mobile responsive only */
+
+        .column20 {
+            position: fixed;
+            float: left;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            z-index: 99;
+            display: none;
+            margin-top: 50px;
+        }
+
+
+
+        /* fixed ENGLOBE derniers critique et ajout - accueil - deskop responsive only */
+
+        .column21 {
+            position: fixed;
+            float: left;
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+            left: 0px;
+            top: 0px;
+            z-index: 95;
+            display: none;
+            left: 50%;
+            transform: translate(-50%, 0);
+            margin-top: 50px;
+
+        }
+
+
+        /* fixed derniers critique DANS COLUMN9 - accueil - deskop responsive only */
+
+        .column22 {
+            float: left;
+            width: 70%;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+
+        /* fixed derniers ajouts DANS COLUMN9 - accueil - deskop responsive only */
+
+        .column23 {
+            float: left;
+            width: 30%;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+
+        /* fixed derniers ajout - mobile responsive only */
+
+        .column24 {
+            position: fixed;
+            float: left;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            z-index: 99;
+            display: none;
+            margin-top: 50px;
+        }
+
+
+
+
+        /* DANS COLUMN12 */
+
+        .menubasfixenglobe {
+
+            background-color: #5b5b5b9e;
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+            padding: 10px;
+            padding-left: 7px;
+            padding-right: 0px;
+            padding-bottom: 16px;
+            padding-top: 12px;
+            border-radius: 6px;
+            position: relative;
+            top: -14px;
+            top: -7px;
+            left: -8px;
+            font-size: 23px;
+            margin-right: 9px;
+            opacity: 0.92;
+
+        }
+
+
+        .menubasfixenglobe2 {
+
+            background-color: #5b5b5b9e;
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+            border-radius: 5px;
+            position: relative;
+            font-size: 23px;
+            margin-right: 15px;
+            opacity: 0.92;
+            border: 1px solid #595959;
+            display: inline-flex;
+
+
+        }
+
+
+        /* DANS menubasfixenglobe / COLUMN12 - navigation bar */
+
+        .menubasfixcritiques {
+
+            border: 1px solid #ff9f00;
+            border-radius: 3px;
+            text-decoration: none;
+            list-style-type: none;
+            color: #ff9f00;
+            margin-right: 7px;
+            padding: 4px;
+            margin-left: 5px;
+
+            background-color: #4c4c4c;
+
+        }
+
+        .menubasfixcritiques:hover {
+
+            background-color: #606260;
+
+        }
+
+
+
+
+        /* DANS menubasfixenglobe / COLUMN12 - navigation bar */
+
+        .menubasfixajouts {
+
+            border: 1px solid black;
+
+            text-decoration: none;
+            list-style-type: none;
+            color: black;
+            padding: 4px;
+            background-color: #4c4c4c;
+            border-radius: 3px;
+
+        }
+
+        .menubasfixajouts:hover {
+
+            background-color: #606260;
+
+
+        }
+
+
+
+
+
+        /* BAR DE MENU */
+
+
+        .barremenu {
+            position: fixed;
+            top: 0px;
+            z-index: 4;
+            width: 100%;
+            height: 50px;
+            background-color: #4c4c4c;
+            border-radius: 2px;
+            left: 0px;
+
+        }
+
+
+
+
+
+        /* image fleche haut */
+
+        .flechehaut {
+
+            height: 26px;
+
+        }
+
+
+        /* bouton image fleche haut */
+
+        #buttonhaut {
+
+            border-right: 1px solid #bebcbc;
+            text-decoration: none;
+            list-style-type: none;
+            color: red;
+            padding-right: 4px;
+            margin-right: 10px;
+            padding-left: 5px;
+
+        }
+
+
+
+
+
+        .sticky1 {
+            display: inline;
+        }
+
+        .sticky2 {
+            display: inline;
+        }
+
+        .sticky3 {
+            display: none;
+        }
+
+
+
+
+
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+
+        .drop-down {
+            position: relative;
+        }
+
+
+        .menu1 {
+
+            display: none;
+        }
+
+
+        .menu2 {
+
+            display: inline;
+        }
+
+        nav {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: -5px 0;
+        }
+
+        .drop-down__menu-box {
+            position: absolute;
+            width: 100%;
+
+
+            left: 0px;
+
+            background-color: #4c4c4c;
+            border-radius: 4px;
+            box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            visibility: hidden;
+            opacity: 0;
+            margin-top: 5px;
+
+            min-width: 159px;
+            z-index: 9999999;
+        }
+
+
+        .svgdernierajout {
+
+            width: 30px;
+            height: 30px;
+            position: relative;
+            top: 7px;
+
+        }
+
+        .svgderniercritique {
+
+            width: 30px;
+            height: 30px;
+            position: relative;
+            top: 7px;
+
+        }
+
+        @media screen and (max-width: 1000px) {
+
+            .columnSEARCH {
+
+
+                left: unset;
+                margin-right: 0;
+                right: 8px;
+
+            }
+
+            .lienrecherche {
+
+                margin-right: unset;
+
+            }
+
+            .svgsearch {
+
+
+                left: 0;
+
+            }
+
+        }
+
+
+        .svg_new {
+
+            width: 20px;
+            height: 20px;
+
+        }
+
+        .svg_new_barre {
+
+            width: 20px;
+            height: 20px;
+
+        }
+
+        .svg_trend_top {
+
+            width: 30px;
+            height: 30px;
+            position: relative;
+            top: 7px;
+
+
+        }
+
+        .svg_trend_top_header {
+
+            width: 28px;
+            height: 21px;
+            position: relative;
+            top: 5px;
+            left: -3px;
+
+        }
+
+
+
+
+
+
+
+
+        @media screen and (max-width: 896px) {
+
+
+
+            .logo {
+
+                z-index: 999;
+                float: left;
+                position: fixed;
+                left: 50%;
+                margin-left: -65px;
+                width: 130px;
+
+            }
+
+
+            .svgsearch {
+
+
+                height: 33px;
+                top: 5px;
+
+            }
+
+
+
+
+            .column4 {
+                z-index: 999;
+                float: left;
+
+                position: fixed;
+
+                left: 7px;
+                margin-left: 0px;
+                top: 9px;
+
+
+            }
+
+
+
+
+
+
+
+
+            nav {
+
+                display: none
+            }
+
+
+            .menu1 {
+
+                display: inline;
+            }
+
+            .menu2 {
+
+                display: none;
+
+            }
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+        @media screen and (max-width: 886px) {
+
+
+
+            .column12 {
+                position: fixed;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 99;
+                bottom: 0px;
+                display: inline-flex;
+            }
+
+            .menubasfixenglobe2 {
+                border-top: 1px solid #5e5e5e;
+                border-bottom: 1px solid #5e5e5e;
+                /* width: 100%; */
+                position: fixed;
+                bottom: 54px;
+                position: fixed;
+                left: 50%;
+                transform: translate(-50%, 0);
+                background-color: #5b5b5b9e;
+                /* max-width: 212px; */
+                height: 49px;
+                border-radius: 2px;
+                top: unset;
+                padding: unset;
+                border: 1px solid #595959;
+                width: unset;
+            }
+
+            .menubasfixenglobe {
+                font-size: 23px;
+                left: 50%;
+                transform: translate(-50%, 0);
+                position: unset;
+                top: unset;
+                margin-right: unset;
+            }
+
+        }
+
+
+
+        @media screen and (max-width: 720px) {
+
+
+
+            .svgcomment {
+                position: relative;
+                top: 5px;
+                width: 43px;
+                height: 38px;
+                padding-left: 10px;
+                margin-left: -5px;
+
+            }
+
+            .svgcomment:hover {
+
+                width: 36px;
+
+            }
+
+            .svgplayer {
+
+                padding-right: 10px;
+                border-right: 1px solid #bebcbc;
+                position: relative;
+                top: 5px;
+                width: 43px;
+                height: 38px;
+                margin-left: 4px;
+
+            }
+
+            .svgplayer:hover {
+
+                width: 36px;
+
+            }
+
+            .svgsynopsis {
+
+                padding-right: 10px;
+                border-right: 1px solid #bebcbc;
+                position: relative;
+                top: 5px;
+                width: 43px;
+                height: 38px;
+
+            }
+
+            .svgsynopsis:hover {
+
+                width: 36px;
+
+            }
+
+
+            .svgaffiche {
+
+                padding-right: 10px;
+                border-right: 1px solid #bebcbc;
+                position: relative;
+                top: 5px;
+                width: 43px;
+                height: 38px;
+
+
+            }
+
+            .svgaffiche:hover {
+
+                width: 36px;
+
+            }
+
+
+
+            .menubasfixenglobe2 {
+
+                border-top: 1px solid #bebcbc;
+                border-bottom: 1px solid #bebcbc;
+                position: fixed;
+                bottom: 43px;
+                position: fixed;
+                left: 50%;
+                transform: translate(-50%, 0);
+                background-color: #5b5b5b9e;
+                max-width: 212px;
+                height: 49px;
+                border-radius: 2px;
+                top: unset;
+                padding: unset;
+                border: 1px solid #595959;
+
+            }
+
+
+
+            .svgdernierajout {
+
+                width: 20px;
+                height: 20px;
+                position: relative;
+                top: 4px;
+
+            }
+
+
+            .svgderniercritique {
+
+                width: 20px;
+                height: 20px;
+                position: relative;
+                top: 4px;
+
+            }
+
+
+
+            .menubasfixenglobe {
+
+                font-size: 15px;
+
+            }
+
+
+
+
+            .sticky {
+
+                display: inline;
+
+            }
+
+            .sticky1 {
+
+                display: none;
+
+            }
+
+            .column1 {
+
+                width: 100%;
+
+            }
+
+            .column2 {
+
+                width: 100%;
+
+            }
+
+
+            .flechehaut {
+
+                height: 19px;
+
+            }
+
+            .svg_new {
+
+                width: 14px;
+                height: 14px;
+
+            }
+
+            .svg_trend_top {
+
+                width: 17px;
+                height: 17px;
+                position: relative;
+                top: 3px;
+
+
+            }
+
+        }
+
+
+
+
+        #hann {
+            width: 100%;
+            font-size: 14px;
+            list-style-type: none;
+        }
+
+        #hann p {
+            list-style-type: none;
+            margin: 0px
+        }
+
+        #hann p span {
+            list-style-type: none;
+        }
+
+        #hann p span a {
+            display: block;
+            text-decoration: none;
+            color: #e09b13;
+            background-color: ;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #3c3122;
+            padding-left: 6px;
+            cursor: pointer;
+            list-style-type: none;
+            font-weight: bold;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+
+        #hann p span a:hover {
+            color: #e09b13;
+            background-color: #3c3122;
+            list-style-type: none;
+        }
+
+        #hann p span a strong {
+            margin-right: 10px;
+            list-style-type: none;
+        }
+
+        .category a {
+            display: block;
+            text-decoration: none;
+            color: #e09b13;
+            background-color: ;
+            line-height: 29px;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #3c3122;
+            padding-left: 6px;
+            cursor: pointer;
+            list-style-type: none;
+            font-weight: bold;
+        }
+
+        .category a:hover {
+            color: #e09b13;
+            background-color: #3c3122;
+            list-style-type: none;
+        }
+
+
+
+
+
+
+
+
+
+        nav ul {
+            text-align: center;
+
+        }
+
+        nav ul li {
+            display: inline-block;
+
+        }
+
+        nav ul li a {
+            padding: 10px;
+            text-transform: uppercase;
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+            border-radius: 2px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #3c3122;
+        }
+
+        .categoryt a {
+            margin-left: 10px;
+            padding: 5px;
+            padding-right: 3px font-family: Raleway;
+            text-transform: uppercase;
+            color: #ff9f00;
+            font-size: 15px;
+            text-decoration: none;
+            border: 1px solid #ff9f00;
+            border-radius: 2px;
+
+        }
+
+        .categoryt a:hover {
+
+            background: #ff9f00;
+            color: #3c3122;
+        }
+
+
+
+
+        .drop-down__button {
+            display: inline-block;
+            line-height: 32px;
+            padding: 0 11px;
+            text-align: left;
+            border-radius: 4px;
+            box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            margin-bottom: 4px;
+            border: 1px solid #7b7b7b;
+        }
+
+        .drop-down__button:hover {
+            background: #7b7b7b;
+
+
+        }
+
+        .drop-down__name {
+
+            text-transform: uppercase;
+            color: #fff;
+
+        }
+
+        .drop-down__icon {
+            width: 18px;
+            vertical-align: middle;
+            margin-left: 14px;
+            height: 18px;
+            border-radius: 50%;
+            transition: all 0.4s;
+            -webkit-transition: all 0.4s;
+            -moz-transition: all 0.4s;
+            -ms-transition: all 0.4s;
+            -o-transition: all 0.4s;
+
+        }
+
+
+
+
+
+        .drop-down__menu {
+            margin: 0;
+            padding: 0 13px;
+            list-style: none;
+
+        }
+
+        .drop-down__menu-box:before {
+            content: '';
+            background-color: transparent;
+
+            position: absolute;
+            border-left: 8px solid transparent;
+
+            border-top: 8px solid transparent;
+            top: -15px;
+            right: 18px;
+
+        }
+
+        .drop-down__menu-box:after {
+            content: '';
+            background-color: transparent;
+        }
+
+        .drop-down__item {
+            font-size: 11px;
+            padding: 13px 14px;
+            font-weight: 500;
+            color: white;
+            cursor: pointer;
+            position: relative;
+            border-bottom: 1px solid #bebcbc;
+        }
+
+        .drop-down__item-icon {
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            right: 0px;
+
+        }
+
+
+
+        .drop-down__item:hover {
+            color: #aeaeae;
+        }
+
+
+
+        .drop-down__item:last-of-type {
+            border-bottom: 0;
+        }
+
+
+        .drop-down--active .drop-down__menu-box {
+            visibility: visible;
+            opacity: 1;
+            margin-top: 0px;
+            border: 1px solid #7b7b7b;
+        }
+
+        .drop-down__item:before {
+            content: '';
+            position: absolute;
+            width: 3px;
+            height: 28px;
+            background-color: #4c4c4c;
+            left: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: none;
+        }
+
+        .drop-down__item:hover:before {
+            display: block;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+
+
+    <div class="column7" id="column7" style="background-color:#1f1f1f;">
+
+        <center>
+
+            <b
+                style="display:inline-block; width:100%; background-color:#2a2a2a; padding-top:6px; padding-bottom:10px;">
+
+                <svg class="svg_new_barre" style="
+    position: relative;
+    top: 4px;
+    left: -2px;
+    " id="Capa_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path fill="#818181"
+                            d="m216 512h80c11.046 0 20-8.954 20-20s-8.954-20-20-20h-80c-11.046 0-20 8.954-20 20s8.954 20 20 20z">
+                        </path>
+                        <path fill="#818181"
+                            d="m256 0c-11.046 0-20 8.954-20 20v21.435c-67.755 9.734-120 68.159-120 138.565v122.956c0 7.048-3.175 13.46-7.899 15.956-19.801 10.455-32.101 30.797-32.101 53.088 0 33.084 26.916 60 60 60h240c33.084 0 60-26.916 60-60 0-22.291-12.3-42.633-32.101-53.088-4.725-2.495-7.899-8.907-7.899-15.956v-122.956c0-70.406-52.245-128.831-120-138.565v-21.435c0-11.046-8.954-20-20-20zm100 180v122.956c0 22.142 11.197 41.809 29.222 51.327 6.648 3.51 10.778 10.299 10.778 17.717 0 11.028-8.972 20-20 20h-240c-11.028 0-20-8.972-20-20 0-7.418 4.13-14.207 10.778-17.717 18.025-9.518 29.222-29.185 29.222-51.327v-122.956c0-55.14 44.86-100 100-100s100 44.86 100 100z">
+                        </path>
+                    </g>
+                </svg>
+                <i><b style="color:#818181">DERNIERS AJOUTS</b></i>
+            </b>
+
+        </center>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="column8" id="column8" style="background-color:#1f1f1f;">
+
+
+
+
+        <b
+            style=" width:100%;display: block;background-color: #2a2a2a;padding-top: 5px;padding-bottom: 10px;/* border-bottom: 1px solid grey; */">
+            <center>
+                <i><b style="color:#818181">
+
+                        <svg class="svg_trend_top_header" viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#818181"
+                                d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                            </path>
+                        </svg>
+
+                    </b> <b style="color: #818181;position: relative;left: -6px;">TOP</b></i>
+            </center>
+        </b>
+
+
+
+
+
+    </div>
+
+    <div class="column9" id="column9">
+
+        <center>
+            <div class="column10">
+
+
+                <center>
+
+                    <b
+                        style="display:inline-block; width:100%; background-color:#2a2a2a; padding-top:6px; padding-bottom:10px;">
+
+                        <svg class="svg_new_barre" style="
+    position: relative;
+    top: 4px;
+    left: -2px;
+    " id="Capa_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path fill="#818181"
+                                    d="m216 512h80c11.046 0 20-8.954 20-20s-8.954-20-20-20h-80c-11.046 0-20 8.954-20 20s8.954 20 20 20z">
+                                </path>
+                                <path fill="#818181"
+                                    d="m256 0c-11.046 0-20 8.954-20 20v21.435c-67.755 9.734-120 68.159-120 138.565v122.956c0 7.048-3.175 13.46-7.899 15.956-19.801 10.455-32.101 30.797-32.101 53.088 0 33.084 26.916 60 60 60h240c33.084 0 60-26.916 60-60 0-22.291-12.3-42.633-32.101-53.088-4.725-2.495-7.899-8.907-7.899-15.956v-122.956c0-70.406-52.245-128.831-120-138.565v-21.435c0-11.046-8.954-20-20-20zm100 180v122.956c0 22.142 11.197 41.809 29.222 51.327 6.648 3.51 10.778 10.299 10.778 17.717 0 11.028-8.972 20-20 20h-240c-11.028 0-20-8.972-20-20 0-7.418 4.13-14.207 10.778-17.717 18.025-9.518 29.222-29.185 29.222-51.327v-122.956c0-55.14 44.86-100 100-100s100 44.86 100 100z">
+                                </path>
+                            </g>
+                        </svg>
+                        <i><b style="color:#818181">DERNIERS AJOUTS</b></i>
+                    </b>
+
+                </center>
+
+            </div>
+
+
+            <div class="column11">
+                <b
+                    style="display:none; width:100%; background-color:#3c3122; padding-top:10px; padding-bottom:10px; border-bottom: 1px solid #3c3122;">
+                    <center>
+                        <i><b style="color:#818181">DERNIERES</b> <b style="color:#818181">CRITIQUES</b></i>
+                    </center>
+                </b>
+            </div>
+        </center>
+
+    </div>
+
+    <div class="column12" id="column12">
+
+        <b style="display:inline-block; width:100%; padding-top:10px; padding-bottom:10px;">
+            <center>
+
+
+
+                <style>
+                    .icon_affiche {
+                        padding-left: 7px;
+                        padding-right: 11px;
+                        padding-top: 10px;
+                        padding-bottom: 5px;
+                        border-right: 1px solid #5e5e5e;
+                    }
+
+                    .icon_canevas {
+                        padding-top: 9px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        border-right: 1px solid #5e5e5e;
+                    }
+
+                    .icon_play {
+                        padding-top: 8px;
+                        padding-right: 8px;
+                        padding-left: 11px;
+                    }
+
+                    .icon_affiche:hover {
+                        background-color: #1919195c;
+                    }
+
+                    .icon_canevas:hover {
+                        background-color: #1919195c;
+                    }
+
+                    .icon_play:hover {
+                        background-color: #1919195c;
+                    }
+
+                    .svg_icon_affiche {
+                        height: 28px;
+                        width: 28px;
+                    }
+
+                    .svg_icon_canevas {
+                        height: 30px;
+                        width: 30px;
+                    }
+
+                    .svg_icon_play {
+                        height: 30px;
+                        width: 30px;
+                    }
+                </style>
+
+                <i class="menubasfixenglobe2">
+
+
+
+
+                    <div class="icon_affiche">
+                        <a style="text-decoration: none;" href="#top1">
+
+                            <svg class="svg_icon_affiche" id="bold" enable-background="new 0 0 24 24"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <g>
+                                        <path
+                                            d="m6.25 19.5c-1.601 0-3.025-1.025-3.542-2.551l-.035-.115c-.122-.404-.173-.744-.173-1.084v-6.818l-2.426 8.098c-.312 1.191.399 2.426 1.592 2.755l15.463 4.141c.193.05.386.074.576.074.996 0 1.906-.661 2.161-1.635l.901-2.865z">
+                                        </path>
+                                    </g>
+                                    <path d="m9 9c1.103 0 2-.897 2-2s-.897-2-2-2-2 .897-2 2 .897 2 2 2z"></path>
+                                </g>
+                                <path
+                                    d="m21.5 2h-15c-1.378 0-2.5 1.122-2.5 2.5v11c0 1.378 1.122 2.5 2.5 2.5h15c1.378 0 2.5-1.122 2.5-2.5v-11c0-1.378-1.122-2.5-2.5-2.5zm-15 2h15c.276 0 .5.224.5.5v7.099l-3.159-3.686c-.335-.393-.82-.603-1.341-.615-.518.003-1.004.233-1.336.631l-3.714 4.458-1.21-1.207c-.684-.684-1.797-.684-2.48 0l-2.76 2.759v-9.439c0-.276.224-.5.5-.5z">
+                                </path>
+                            </svg>
+
+                        </a>
+                    </div>
+
+
+                    <div class="icon_canevas">
+
+                        <a style="text-decoration: none;" href="#top2">
+
+                            <svg class="svg_icon_canevas" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <g id="_01" data-name="01">
+                                    <path
+                                        d="m16.186 2h-8.372c-3.64 0-5.814 2.173-5.814 5.814v8.372c0 3.641 2.174 5.814 5.814 5.814h8.372c3.64 0 5.814-2.173 5.814-5.814v-8.372c0-3.641-2.174-5.814-5.814-5.814zm-4.572 12.836a1.917 1.917 0 0 1 -1.939 1.939h-1.486a1.941 1.941 0 0 1 -1.939-1.939v-2.675c0-3.082.675-3.772 2.461-4.832a.755.755 0 0 1 .382-.1.75.75 0 0 1 .383 1.391c-1.209.716-1.63.976-1.71 2.791h1.909a1.918 1.918 0 0 1 1.939 1.939zm6.136 0a1.918 1.918 0 0 1 -1.939 1.939h-1.486a1.941 1.941 0 0 1 -1.939-1.939v-2.675c0-3.082.675-3.772 2.461-4.832a.75.75 0 0 1 .764 1.291c-1.208.716-1.63.976-1.709 2.791h1.909a1.919 1.919 0 0 1 1.939 1.939z">
+                                    </path>
+                                </g>
+                            </svg>
+
+                        </a>
+
+                    </div>
+
+
+
+                    <div class="icon_play">
+
+                        <a style="text-decoration: none;" href="#top3">
+
+                            <svg class="svg_icon_play" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <g id="Play">
+                                    <path
+                                        d="m37.324 20.026-22-12.412a4.685 4.685 0 0 0 -4.711.036 4.528 4.528 0 0 0 -2.28 3.938v24.824a4.528 4.528 0 0 0 2.28 3.938 4.687 4.687 0 0 0 4.711.036l22-12.412a4.543 4.543 0 0 0 0-7.948z">
+                                    </path>
+                                </g>
+                            </svg>
+
+                        </a>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </i>
+
+
+                <i class="menubasfixenglobe">
+
+                    <a class="sticky3" id="buttonhaut" href="#">
+                        <svg class="flechehaut" style="position:relative; top: 4px" x="0px" y="0px"
+                            viewBox="0 0 444.819 444.819" style="enable-background:new 0 0 444.819 444.819;"
+                            xml:space="preserve" class="hovered-paths">
+                            <g>
+                                <g>
+                                    <path
+                                        d="M434.252,208.708L248.387,22.843c-7.042-7.043-15.693-10.564-25.977-10.564c-10.467,0-19.036,3.521-25.697,10.564   L10.848,208.708C3.615,215.94,0,224.604,0,234.692c0,9.897,3.619,18.459,10.848,25.693l21.411,21.409   c6.854,7.231,15.42,10.855,25.697,10.855c10.278,0,18.842-3.624,25.697-10.855l83.939-83.651v200.998   c0,9.89,3.567,17.936,10.706,24.126c7.139,6.184,15.752,9.273,25.837,9.273h36.545c10.089,0,18.698-3.09,25.837-9.273   c7.139-6.188,10.712-14.236,10.712-24.126V198.144l83.938,83.651c6.848,7.231,15.413,10.855,25.7,10.855   c10.082,0,18.747-3.624,25.975-10.855l21.409-21.409c7.043-7.426,10.567-15.988,10.567-25.693   C444.819,224.795,441.295,216.134,434.252,208.708z"
+                                        data-original="#fff" class="hovered-path active-path" fill="#fff" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+
+
+
+
+                    <a class="menubasfixajouts" id="buttonlastajout" href="#dernieresajouts">
+
+
+                        <svg class="svg_new" style="position: relative;
+    top: 1px;
+    left: 2px;" id="Capa_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path fill="black"
+                                    d="m216 512h80c11.046 0 20-8.954 20-20s-8.954-20-20-20h-80c-11.046 0-20 8.954-20 20s8.954 20 20 20z" />
+                                <path fill="black"
+                                    d="m256 0c-11.046 0-20 8.954-20 20v21.435c-67.755 9.734-120 68.159-120 138.565v122.956c0 7.048-3.175 13.46-7.899 15.956-19.801 10.455-32.101 30.797-32.101 53.088 0 33.084 26.916 60 60 60h240c33.084 0 60-26.916 60-60 0-22.291-12.3-42.633-32.101-53.088-4.725-2.495-7.899-8.907-7.899-15.956v-122.956c0-70.406-52.245-128.831-120-138.565v-21.435c0-11.046-8.954-20-20-20zm100 180v122.956c0 22.142 11.197 41.809 29.222 51.327 6.648 3.51 10.778 10.299 10.778 17.717 0 11.028-8.972 20-20 20h-240c-11.028 0-20-8.972-20-20 0-7.418 4.13-14.207 10.778-17.717 18.025-9.518 29.222-29.185 29.222-51.327v-122.956c0-55.14 44.86-100 100-100s100 44.86 100 100z" />
+                            </g>
+                        </svg>
+
+
+
+                        <b>
+                            NEW
+                        </b>
+
+                    </a>
+
+
+
+
+
+
+                    <a class="menubasfixcritiques" id="buttonlastcritique" href="#dernierescritiques">
+
+
+                        <svg class="svg_trend_top" viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#ff9f00"
+                                d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                            </path>
+                        </svg>
+
+                        <b style="padding-right: 4px;">
+                            TOP
+
+                        </b>
+                    </a>
+
+
+
+                </i>
+
+
+
+
+
+            </center>
+
+        </b>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="content">
+
+        <div class="barremenu">
+
+        </div>
+
+
+
+
+        <div class="column3" style="position:relative; z-index:99999">
+
+            <a href="/3osm5vq41x/home/droskop/">
+
+
+
+
+
+
+                <div class="logo" id="logoid"
+                    style="background: radial-gradient(rgb(0, 0, 0), rgb(14, 33, 52)); border: unset;">
+
+
+                    <div class="logoa" style="width: 20%; align-self: center; margin-left: 5px;">
+
+
+                        <!--?xml version="1.0" encoding="utf-8"?--><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                        <svg widtr="800px" hight="800px" viewBox="0 0 24 24" "none"=""
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.286 3.407A1.5 1.5 0 0 0 6 4.684v14.632a1.5 1.5 0 0 0 2.286 1.277l11.888-7.316a1.5 1.5 0 0 0 0-2.555L8.286 3.407z"
+                                fill="#f29c1f" id="eee2"></path>
+                        </svg>
+                    </div>
+
+                    <div class="logob" id="nomsiteidpourtextarea"
+                        style="width: 70%; margin-left: 13px; align-self: center; margin-right: 5px;">
+
+                        <svg widtr="446.77" heighrt="73.109" viewBox="0 0 446.77 73.109"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="svgGroup" class="logo1" stroke-linecap="round" fill-rule="evenodd" font-size="9pt"
+                                stroke="#000" stroke-widtr="0.25mm" fill="#2a9ad7"
+                                style="stroke: rgb(0, 0, 0); fill: rgb(42, 154, 215); stroke-width: 0px;">
+                                <path
+                                    d="M 294.238 72.08 L 284.229 45.81 L 275.537 53.964 L 272.363 72.08 L 255.664 72.08 L 267.969 0.986 L 284.717 0.986 L 279.395 31.406 L 286.328 22.958 L 304.785 0.986 L 326.465 0.986 L 296.973 33.164 L 313.33 72.08 L 294.238 72.08 Z M 227.539 44.296 L 219.531 40.976 A 42.748 42.748 0 0 1 212.602 37.125 Q 203.477 30.766 203.477 21.583 A 19.078 19.078 0 0 1 203.516 20.371 A 18.189 18.189 0 0 1 207.617 9.75 A 22.075 22.075 0 0 1 213.442 4.732 A 29.497 29.497 0 0 1 218.018 2.5 Q 224.658 -0.088 232.52 0.009 Q 243.066 0.205 249.487 6.162 A 19.437 19.437 0 0 1 255.59 18.293 Q 255.83 20.13 255.811 22.128 L 239.209 22.128 A 16.377 16.377 0 0 0 239.22 21.544 Q 239.22 17.849 237.476 15.561 Q 235.862 13.444 232.467 13.073 A 13.575 13.575 0 0 0 231.299 12.998 A 16.333 16.333 0 0 0 230.919 12.993 Q 226.953 12.993 223.877 14.951 A 9.065 9.065 0 0 0 221.635 16.923 A 7.607 7.607 0 0 0 220.068 20.468 A 5.225 5.225 0 0 0 219.974 21.445 Q 219.974 25.248 225.928 27.903 A 27.724 27.724 0 0 0 227.319 28.476 A 162.325 162.325 0 0 1 231.129 29.984 Q 236.426 32.163 239.209 33.847 A 27.326 27.326 0 0 1 244.97 38.345 Q 250.19 43.8 250.19 51.31 A 22.468 22.468 0 0 1 250.146 52.695 A 19.832 19.832 0 0 1 248.109 60.439 A 19.045 19.045 0 0 1 246.191 63.486 A 21.217 21.217 0 0 1 240.029 68.847 A 27.737 27.737 0 0 1 236.304 70.664 A 33.901 33.901 0 0 1 227.368 72.858 Q 225.107 73.109 222.699 73.109 A 46.712 46.712 0 0 1 222.119 73.105 A 36.002 36.002 0 0 1 214.752 72.246 A 31.275 31.275 0 0 1 211.426 71.298 A 24.515 24.515 0 0 1 205.33 68.221 A 21.998 21.998 0 0 1 202.979 66.318 A 21.019 21.019 0 0 1 196.191 51.697 Q 196.131 50.778 196.131 49.825 A 30.871 30.871 0 0 1 196.143 48.984 L 212.891 49.033 A 21.951 21.951 0 0 0 212.859 50.053 Q 212.835 53.452 213.953 55.721 A 7.642 7.642 0 0 0 214.99 57.309 Q 217.383 60.117 223.047 60.117 A 15.087 15.087 0 0 0 226.229 59.798 A 10.636 10.636 0 0 0 230.054 58.188 A 7.994 7.994 0 0 0 233.476 52.948 A 9.966 9.966 0 0 0 233.496 52.841 A 7.587 7.587 0 0 0 233.633 51.682 Q 233.785 47.722 229.325 45.179 A 17.898 17.898 0 0 0 227.539 44.296 Z M 101.367 72.08 L 93.555 46.982 L 84.277 46.982 L 79.883 72.08 L 63.184 72.08 L 75.488 0.986 L 100.586 1.035 A 41.439 41.439 0 0 1 107.744 1.613 Q 114.734 2.841 119.165 6.674 A 16.768 16.768 0 0 1 125.021 18.83 Q 125.065 19.534 125.065 20.263 A 26.017 26.017 0 0 1 125 22.08 A 27.986 27.986 0 0 1 123.947 28.115 A 20.38 20.38 0 0 1 120.557 34.848 A 23.671 23.671 0 0 1 114.453 40.336 A 31.729 31.729 0 0 1 109.619 42.832 L 119.189 71.25 L 119.189 72.08 L 101.367 72.08 Z M 416.797 48.007 L 405.078 47.958 L 400.879 72.08 L 384.18 72.08 L 396.484 0.986 L 422.021 1.035 Q 432.925 1.035 439.561 6.601 A 21.56 21.56 0 0 1 440.698 7.626 Q 447.51 14.218 446.68 24.716 A 24.789 24.789 0 0 1 444.86 32.379 A 22.062 22.062 0 0 1 442.09 37.167 A 25.082 25.082 0 0 1 432.777 44.657 A 30.053 30.053 0 0 1 431.519 45.224 A 35.07 35.07 0 0 1 421.738 47.736 A 43.778 43.778 0 0 1 416.797 48.007 Z M 23.877 72.08 L 0 72.08 L 12.305 0.986 L 33.203 1.035 A 29.561 29.561 0 0 1 42.347 2.406 A 25.772 25.772 0 0 1 49.316 5.893 A 26.072 26.072 0 0 1 58.991 18.888 A 31.768 31.768 0 0 1 59.082 19.15 Q 61.572 26.523 60.596 35.068 L 60.254 38.046 A 42.005 42.005 0 0 1 53.906 55.38 A 36.36 36.36 0 0 1 40.967 67.563 A 35.263 35.263 0 0 1 23.877 72.08 Z M 156.299 73.056 Q 145.215 72.812 138.525 65.732 A 26.688 26.688 0 0 1 132.339 54.697 A 38.199 38.199 0 0 1 130.957 46.787 A 37.122 37.122 0 0 1 130.835 44.154 Q 130.779 39.527 131.748 33.783 A 84.141 84.141 0 0 1 131.885 32.993 A 48.83 48.83 0 0 1 136.256 19.634 A 45.848 45.848 0 0 1 136.914 18.369 A 38.204 38.204 0 0 1 142.888 10.072 A 34.363 34.363 0 0 1 145.947 7.236 A 30.828 30.828 0 0 1 166.101 0.002 A 36.072 36.072 0 0 1 166.846 0.009 A 29.043 29.043 0 0 1 173.663 0.919 A 23.273 23.273 0 0 1 179.565 3.354 A 22.907 22.907 0 0 1 187.429 11.101 A 27.706 27.706 0 0 1 188.281 12.558 A 31.541 31.541 0 0 1 191.631 22.388 A 38.705 38.705 0 0 1 192.09 26.23 Q 192.48 31.65 191.431 38.559 A 50.81 50.81 0 0 1 187.573 51.743 A 40.296 40.296 0 0 1 180.322 62.802 Q 175.879 67.587 169.849 70.395 A 28.683 28.683 0 0 1 160.495 72.897 Q 158.81 73.063 157.041 73.063 A 38.101 38.101 0 0 1 156.299 73.056 Z M 346.045 73.056 Q 334.961 72.812 328.271 65.732 A 26.688 26.688 0 0 1 322.085 54.697 A 38.199 38.199 0 0 1 320.703 46.787 A 37.122 37.122 0 0 1 320.581 44.154 Q 320.525 39.527 321.494 33.783 A 84.141 84.141 0 0 1 321.631 32.993 A 48.83 48.83 0 0 1 326.002 19.634 A 45.848 45.848 0 0 1 326.66 18.369 A 38.204 38.204 0 0 1 332.635 10.072 A 34.363 34.363 0 0 1 335.693 7.236 A 30.828 30.828 0 0 1 355.847 0.002 A 36.072 36.072 0 0 1 356.592 0.009 A 29.043 29.043 0 0 1 363.409 0.919 A 23.273 23.273 0 0 1 369.312 3.354 A 22.907 22.907 0 0 1 377.176 11.101 A 27.706 27.706 0 0 1 378.027 12.558 A 31.541 31.541 0 0 1 381.377 22.388 A 38.705 38.705 0 0 1 381.836 26.23 Q 382.227 31.65 381.177 38.559 A 50.81 50.81 0 0 1 377.319 51.743 A 40.296 40.296 0 0 1 370.068 62.802 Q 365.625 67.587 359.595 70.395 A 28.683 28.683 0 0 1 350.241 72.897 Q 348.556 73.063 346.787 73.063 A 38.101 38.101 0 0 1 346.045 73.056 Z M 166.059 13.4 A 13.13 13.13 0 0 0 165.869 13.388 A 15.435 15.435 0 0 0 165.109 13.369 Q 159.437 13.369 155.429 17.665 A 17.866 17.866 0 0 0 154.395 18.881 A 23.411 23.411 0 0 0 151.342 24.223 Q 150.218 26.899 149.44 30.198 A 58 58 0 0 0 148.389 36.093 Q 147.461 43.125 147.705 46.982 A 25.377 25.377 0 0 0 148.258 51.523 Q 150.019 59.367 157.118 59.719 A 13.193 13.193 0 0 0 157.275 59.726 Q 162.926 60.004 167.083 55.91 A 16.825 16.825 0 0 0 167.529 55.454 A 20.515 20.515 0 0 0 170.831 50.664 Q 171.974 48.421 172.821 45.665 A 43.536 43.536 0 0 0 173.73 42.172 Q 175.381 34.619 175.381 28.074 A 50.122 50.122 0 0 0 175.342 26.083 Q 174.859 14.006 166.059 13.4 Z M 355.805 13.4 A 13.13 13.13 0 0 0 355.615 13.388 A 15.435 15.435 0 0 0 354.855 13.369 Q 349.183 13.369 345.175 17.665 A 17.866 17.866 0 0 0 344.141 18.881 A 23.411 23.411 0 0 0 341.088 24.223 Q 339.964 26.899 339.186 30.198 A 58 58 0 0 0 338.135 36.093 Q 337.207 43.125 337.451 46.982 A 25.377 25.377 0 0 0 338.004 51.523 Q 339.765 59.367 346.864 59.719 A 13.193 13.193 0 0 0 347.021 59.726 Q 352.672 60.004 356.829 55.91 A 16.825 16.825 0 0 0 357.275 55.454 A 20.515 20.515 0 0 0 360.577 50.664 Q 361.72 48.421 362.567 45.665 A 43.536 43.536 0 0 0 363.477 42.172 Q 365.127 34.619 365.127 28.074 A 50.122 50.122 0 0 0 365.088 26.083 Q 364.605 14.006 355.805 13.4 Z M 33.154 14.267 L 26.758 14.218 L 18.994 58.896 L 23.877 58.945 Q 32.434 58.945 37.626 52.361 A 20.957 20.957 0 0 0 37.671 52.304 A 23.381 23.381 0 0 0 40.97 46.353 Q 43.236 40.55 43.848 31.992 L 43.945 30.38 A 38.484 38.484 0 0 0 43.982 28.919 Q 44.021 22.18 41.504 18.515 A 9.504 9.504 0 0 0 34.826 14.422 A 14.091 14.091 0 0 0 33.154 14.267 Z M 410.938 14.218 L 407.373 34.726 L 417.432 34.824 A 16.551 16.551 0 0 0 421.444 34.27 A 11.149 11.149 0 0 0 427.148 30.698 A 11.776 11.776 0 0 0 429.949 22.958 Q 429.958 21.963 429.834 20.908 A 9.066 9.066 0 0 0 429.271 18.693 A 6.802 6.802 0 0 0 427.563 16.196 Q 425.684 14.462 422.607 14.267 L 410.938 14.218 Z M 89.941 14.218 L 86.523 33.75 L 96.289 33.847 A 13.81 13.81 0 0 0 100.003 33.366 A 11.364 11.364 0 0 0 103.247 31.894 A 10.757 10.757 0 0 0 107.471 26.547 A 14.201 14.201 0 0 0 108.227 23.681 Q 108.363 22.776 108.363 21.887 A 11.406 11.406 0 0 0 108.203 19.98 Q 107.433 15.704 103.562 14.619 A 10.387 10.387 0 0 0 101.27 14.267 L 89.941 14.218 Z"
+                                    vector-effect="non-scaling-stroke"></path>
+                            </g>
+                        </svg>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <div class="logo" id="logoidhover" style="display:none;background: rgb(31, 74, 117); border: unset;">
+
+
+                    <div class="logoa" style="width: 20%; align-self: center; margin-left: 5px;">
+
+
+                        <!--?xml version="1.0" encoding="utf-8"?--><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                        <svg widtr="800px" hight="800px" viewBox="0 0 24 24" "none"=""
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.286 3.407A1.5 1.5 0 0 0 6 4.684v14.632a1.5 1.5 0 0 0 2.286 1.277l11.888-7.316a1.5 1.5 0 0 0 0-2.555L8.286 3.407z"
+                                fill="#f29c1f" id="eee2"></path>
+                        </svg>
+                    </div>
+
+                    <div class="logob" style="width: 70%; margin-left: 13px; align-self: center; margin-right: 5px;">
+
+                        <svg widtr="446.77" heighrt="73.109" viewBox="0 0 446.77 73.109"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="svgGroup" class="logo2" stroke-linecap="round" fill-rule="evenodd" font-size="9pt"
+                                stroke="#000" stroke-widtr="0.25mm" fill="#f29c1f"
+                                style="stroke: rgb(0, 0, 0); fill: rgb(242, 156, 31); stroke-width: 0px;">
+                                <path
+                                    d="M 294.238 72.08 L 284.229 45.81 L 275.537 53.964 L 272.363 72.08 L 255.664 72.08 L 267.969 0.986 L 284.717 0.986 L 279.395 31.406 L 286.328 22.958 L 304.785 0.986 L 326.465 0.986 L 296.973 33.164 L 313.33 72.08 L 294.238 72.08 Z M 227.539 44.296 L 219.531 40.976 A 42.748 42.748 0 0 1 212.602 37.125 Q 203.477 30.766 203.477 21.583 A 19.078 19.078 0 0 1 203.516 20.371 A 18.189 18.189 0 0 1 207.617 9.75 A 22.075 22.075 0 0 1 213.442 4.732 A 29.497 29.497 0 0 1 218.018 2.5 Q 224.658 -0.088 232.52 0.009 Q 243.066 0.205 249.487 6.162 A 19.437 19.437 0 0 1 255.59 18.293 Q 255.83 20.13 255.811 22.128 L 239.209 22.128 A 16.377 16.377 0 0 0 239.22 21.544 Q 239.22 17.849 237.476 15.561 Q 235.862 13.444 232.467 13.073 A 13.575 13.575 0 0 0 231.299 12.998 A 16.333 16.333 0 0 0 230.919 12.993 Q 226.953 12.993 223.877 14.951 A 9.065 9.065 0 0 0 221.635 16.923 A 7.607 7.607 0 0 0 220.068 20.468 A 5.225 5.225 0 0 0 219.974 21.445 Q 219.974 25.248 225.928 27.903 A 27.724 27.724 0 0 0 227.319 28.476 A 162.325 162.325 0 0 1 231.129 29.984 Q 236.426 32.163 239.209 33.847 A 27.326 27.326 0 0 1 244.97 38.345 Q 250.19 43.8 250.19 51.31 A 22.468 22.468 0 0 1 250.146 52.695 A 19.832 19.832 0 0 1 248.109 60.439 A 19.045 19.045 0 0 1 246.191 63.486 A 21.217 21.217 0 0 1 240.029 68.847 A 27.737 27.737 0 0 1 236.304 70.664 A 33.901 33.901 0 0 1 227.368 72.858 Q 225.107 73.109 222.699 73.109 A 46.712 46.712 0 0 1 222.119 73.105 A 36.002 36.002 0 0 1 214.752 72.246 A 31.275 31.275 0 0 1 211.426 71.298 A 24.515 24.515 0 0 1 205.33 68.221 A 21.998 21.998 0 0 1 202.979 66.318 A 21.019 21.019 0 0 1 196.191 51.697 Q 196.131 50.778 196.131 49.825 A 30.871 30.871 0 0 1 196.143 48.984 L 212.891 49.033 A 21.951 21.951 0 0 0 212.859 50.053 Q 212.835 53.452 213.953 55.721 A 7.642 7.642 0 0 0 214.99 57.309 Q 217.383 60.117 223.047 60.117 A 15.087 15.087 0 0 0 226.229 59.798 A 10.636 10.636 0 0 0 230.054 58.188 A 7.994 7.994 0 0 0 233.476 52.948 A 9.966 9.966 0 0 0 233.496 52.841 A 7.587 7.587 0 0 0 233.633 51.682 Q 233.785 47.722 229.325 45.179 A 17.898 17.898 0 0 0 227.539 44.296 Z M 101.367 72.08 L 93.555 46.982 L 84.277 46.982 L 79.883 72.08 L 63.184 72.08 L 75.488 0.986 L 100.586 1.035 A 41.439 41.439 0 0 1 107.744 1.613 Q 114.734 2.841 119.165 6.674 A 16.768 16.768 0 0 1 125.021 18.83 Q 125.065 19.534 125.065 20.263 A 26.017 26.017 0 0 1 125 22.08 A 27.986 27.986 0 0 1 123.947 28.115 A 20.38 20.38 0 0 1 120.557 34.848 A 23.671 23.671 0 0 1 114.453 40.336 A 31.729 31.729 0 0 1 109.619 42.832 L 119.189 71.25 L 119.189 72.08 L 101.367 72.08 Z M 416.797 48.007 L 405.078 47.958 L 400.879 72.08 L 384.18 72.08 L 396.484 0.986 L 422.021 1.035 Q 432.925 1.035 439.561 6.601 A 21.56 21.56 0 0 1 440.698 7.626 Q 447.51 14.218 446.68 24.716 A 24.789 24.789 0 0 1 444.86 32.379 A 22.062 22.062 0 0 1 442.09 37.167 A 25.082 25.082 0 0 1 432.777 44.657 A 30.053 30.053 0 0 1 431.519 45.224 A 35.07 35.07 0 0 1 421.738 47.736 A 43.778 43.778 0 0 1 416.797 48.007 Z M 23.877 72.08 L 0 72.08 L 12.305 0.986 L 33.203 1.035 A 29.561 29.561 0 0 1 42.347 2.406 A 25.772 25.772 0 0 1 49.316 5.893 A 26.072 26.072 0 0 1 58.991 18.888 A 31.768 31.768 0 0 1 59.082 19.15 Q 61.572 26.523 60.596 35.068 L 60.254 38.046 A 42.005 42.005 0 0 1 53.906 55.38 A 36.36 36.36 0 0 1 40.967 67.563 A 35.263 35.263 0 0 1 23.877 72.08 Z M 156.299 73.056 Q 145.215 72.812 138.525 65.732 A 26.688 26.688 0 0 1 132.339 54.697 A 38.199 38.199 0 0 1 130.957 46.787 A 37.122 37.122 0 0 1 130.835 44.154 Q 130.779 39.527 131.748 33.783 A 84.141 84.141 0 0 1 131.885 32.993 A 48.83 48.83 0 0 1 136.256 19.634 A 45.848 45.848 0 0 1 136.914 18.369 A 38.204 38.204 0 0 1 142.888 10.072 A 34.363 34.363 0 0 1 145.947 7.236 A 30.828 30.828 0 0 1 166.101 0.002 A 36.072 36.072 0 0 1 166.846 0.009 A 29.043 29.043 0 0 1 173.663 0.919 A 23.273 23.273 0 0 1 179.565 3.354 A 22.907 22.907 0 0 1 187.429 11.101 A 27.706 27.706 0 0 1 188.281 12.558 A 31.541 31.541 0 0 1 191.631 22.388 A 38.705 38.705 0 0 1 192.09 26.23 Q 192.48 31.65 191.431 38.559 A 50.81 50.81 0 0 1 187.573 51.743 A 40.296 40.296 0 0 1 180.322 62.802 Q 175.879 67.587 169.849 70.395 A 28.683 28.683 0 0 1 160.495 72.897 Q 158.81 73.063 157.041 73.063 A 38.101 38.101 0 0 1 156.299 73.056 Z M 346.045 73.056 Q 334.961 72.812 328.271 65.732 A 26.688 26.688 0 0 1 322.085 54.697 A 38.199 38.199 0 0 1 320.703 46.787 A 37.122 37.122 0 0 1 320.581 44.154 Q 320.525 39.527 321.494 33.783 A 84.141 84.141 0 0 1 321.631 32.993 A 48.83 48.83 0 0 1 326.002 19.634 A 45.848 45.848 0 0 1 326.66 18.369 A 38.204 38.204 0 0 1 332.635 10.072 A 34.363 34.363 0 0 1 335.693 7.236 A 30.828 30.828 0 0 1 355.847 0.002 A 36.072 36.072 0 0 1 356.592 0.009 A 29.043 29.043 0 0 1 363.409 0.919 A 23.273 23.273 0 0 1 369.312 3.354 A 22.907 22.907 0 0 1 377.176 11.101 A 27.706 27.706 0 0 1 378.027 12.558 A 31.541 31.541 0 0 1 381.377 22.388 A 38.705 38.705 0 0 1 381.836 26.23 Q 382.227 31.65 381.177 38.559 A 50.81 50.81 0 0 1 377.319 51.743 A 40.296 40.296 0 0 1 370.068 62.802 Q 365.625 67.587 359.595 70.395 A 28.683 28.683 0 0 1 350.241 72.897 Q 348.556 73.063 346.787 73.063 A 38.101 38.101 0 0 1 346.045 73.056 Z M 166.059 13.4 A 13.13 13.13 0 0 0 165.869 13.388 A 15.435 15.435 0 0 0 165.109 13.369 Q 159.437 13.369 155.429 17.665 A 17.866 17.866 0 0 0 154.395 18.881 A 23.411 23.411 0 0 0 151.342 24.223 Q 150.218 26.899 149.44 30.198 A 58 58 0 0 0 148.389 36.093 Q 147.461 43.125 147.705 46.982 A 25.377 25.377 0 0 0 148.258 51.523 Q 150.019 59.367 157.118 59.719 A 13.193 13.193 0 0 0 157.275 59.726 Q 162.926 60.004 167.083 55.91 A 16.825 16.825 0 0 0 167.529 55.454 A 20.515 20.515 0 0 0 170.831 50.664 Q 171.974 48.421 172.821 45.665 A 43.536 43.536 0 0 0 173.73 42.172 Q 175.381 34.619 175.381 28.074 A 50.122 50.122 0 0 0 175.342 26.083 Q 174.859 14.006 166.059 13.4 Z M 355.805 13.4 A 13.13 13.13 0 0 0 355.615 13.388 A 15.435 15.435 0 0 0 354.855 13.369 Q 349.183 13.369 345.175 17.665 A 17.866 17.866 0 0 0 344.141 18.881 A 23.411 23.411 0 0 0 341.088 24.223 Q 339.964 26.899 339.186 30.198 A 58 58 0 0 0 338.135 36.093 Q 337.207 43.125 337.451 46.982 A 25.377 25.377 0 0 0 338.004 51.523 Q 339.765 59.367 346.864 59.719 A 13.193 13.193 0 0 0 347.021 59.726 Q 352.672 60.004 356.829 55.91 A 16.825 16.825 0 0 0 357.275 55.454 A 20.515 20.515 0 0 0 360.577 50.664 Q 361.72 48.421 362.567 45.665 A 43.536 43.536 0 0 0 363.477 42.172 Q 365.127 34.619 365.127 28.074 A 50.122 50.122 0 0 0 365.088 26.083 Q 364.605 14.006 355.805 13.4 Z M 33.154 14.267 L 26.758 14.218 L 18.994 58.896 L 23.877 58.945 Q 32.434 58.945 37.626 52.361 A 20.957 20.957 0 0 0 37.671 52.304 A 23.381 23.381 0 0 0 40.97 46.353 Q 43.236 40.55 43.848 31.992 L 43.945 30.38 A 38.484 38.484 0 0 0 43.982 28.919 Q 44.021 22.18 41.504 18.515 A 9.504 9.504 0 0 0 34.826 14.422 A 14.091 14.091 0 0 0 33.154 14.267 Z M 410.938 14.218 L 407.373 34.726 L 417.432 34.824 A 16.551 16.551 0 0 0 421.444 34.27 A 11.149 11.149 0 0 0 427.148 30.698 A 11.776 11.776 0 0 0 429.949 22.958 Q 429.958 21.963 429.834 20.908 A 9.066 9.066 0 0 0 429.271 18.693 A 6.802 6.802 0 0 0 427.563 16.196 Q 425.684 14.462 422.607 14.267 L 410.938 14.218 Z M 89.941 14.218 L 86.523 33.75 L 96.289 33.847 A 13.81 13.81 0 0 0 100.003 33.366 A 11.364 11.364 0 0 0 103.247 31.894 A 10.757 10.757 0 0 0 107.471 26.547 A 14.201 14.201 0 0 0 108.227 23.681 Q 108.363 22.776 108.363 21.887 A 11.406 11.406 0 0 0 108.203 19.98 Q 107.433 15.704 103.562 14.619 A 10.387 10.387 0 0 0 101.27 14.267 L 89.941 14.218 Z"
+                                    vector-effect="non-scaling-stroke"></path>
+                            </g>
+                        </svg>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <script>
+
+                    $('.column3').on("mouseover", function () {
+
+                        $("#logoid").css("display", "none");
+                        $("#logoidhover").css("display", "flex");
+
+
+                    });
+
+                    $('.column3').on("mouseout", function () {
+
+                        $("#logoid").css("display", "flex");
+                        $("#logoidhover").css("display", "none");
+
+                    });
+
+
+
+                </script>
+
+
+            </a>
+        </div>
+
+
+
+
+        <div class="column4" style="position:fixed;">
+
+
+
+            <div class="drop-down menu1">
+                <div id="dropDown" class="drop-down__button">
+                    <span class="drop-down__name">GENRES</span>
+
+                    <svg height="16px" x="0px" y="0px" viewBox="0 0 512 512"
+                        style="enable-background:new 0 0 512 512; position:relative; left:6px; top:2px"
+                        xml:space="preserve">
+                        <g>
+                            <g>
+                                <g>
+                                    <g>
+                                        <circle cx="256" cy="256" r="64" data-original="#979797" class="active-path"
+                                            fill="#979797" />
+                                        <circle cx="256" cy="448" r="64" data-original="#979797" class="active-path"
+                                            fill="#979797" />
+                                        <circle cx="256" cy="64" r="64" data-original="#979797" class="active-path"
+                                            fill="#979797" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+
+                </div>
+
+                <div class="drop-down__menu-box">
+                    <ul class="drop-down__menu">
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/29/0'" class="drop-down__item">À
+                            L'AFFICHE</li>
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/2/0'" class="drop-down__item">ANIMATION
+                        </li>
+
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/1/0'" class="drop-down__item">ACTION
+                        </li>
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/4/0'" class="drop-down__item">AVENTURE
+                        </li>
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/6/0'" class="drop-down__item">COMEDIE
+                        </li>
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/7/0'" class="drop-down__item">DRAME
+                        </li>
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/8/0'" class="drop-down__item">
+                            FANTASTIQUE</li>
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/9/0'" class="drop-down__item">HORREUR
+                        </li>
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/10/0'" class="drop-down__item">POLICIER
+                        </li>
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/11/0'" class="drop-down__item">
+                            SCIENCE-FICTION</li>
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/12/0'" class="drop-down__item">THRILLER
+                        </li>
+
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/26/0'" class="drop-down__item">
+                            DOCUMENTAIRE</li>
+                        <li onclick="window.location.href='/3osm5vq41x/c/droskop/3/0'" class="drop-down__item">SPECTACLE
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <nav style="position:relative; top:8px; left:-30px">
+                <ul>
+                    <li>
+                        <a href="/3osm5vq41x/c/droskop/29/0">À l'affiche</a>
+                    </li>
+                    <li>
+                        <a href="/3osm5vq41x/c/droskop/2/0">Animation</a>
+                    </li>
+
+                    <div class="drop-down menu2">
+                        <div id="dropDown" style="z-index:9999" class="drop-down__button">
+                            <span class="drop-down__name">GENRES</span>
+
+
+                            <svg height="16px" x="0px" y="0px" viewBox="0 0 512 512"
+                                style="enable-background:new 0 0 512 512; position:relative; left:6px; top:2px"
+                                xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <circle cx="256" cy="256" r="64" data-original="#979797"
+                                                    class="active-path" fill="#979797" />
+                                                <circle cx="256" cy="448" r="64" data-original="#979797"
+                                                    class="active-path" fill="#979797" />
+                                                <circle cx="256" cy="64" r="64" data-original="#979797"
+                                                    class="active-path" fill="#979797" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+
+
+                        </div>
+
+                        <div class="drop-down__menu-box">
+                            <ul class="drop-down__menu">
+                                <li onclick="window.location.href='/3osm5vq41x/c/droskop/1/0'" class="drop-down__item">
+                                    ACTION</li>
+                                <li onclick="window.location.href='/3osm5vq41x/c/droskop/4/0'" class="drop-down__item">
+                                    AVENTURE</li>
+                                <li onclick="window.location.href='/3osm5vq41x/c/droskop/6/0'" class="drop-down__item">
+                                    COMEDIE</li>
+                                <li onclick="window.location.href='/3osm5vq41x/c/droskop/7/0'" class="drop-down__item">
+                                    DRAME</li>
+                                <li onclick="window.location.href='/3osm5vq41x/c/droskop/8/0'" class="drop-down__item">
+                                    FANTASTIQUE</li>
+                                <li onclick="window.location.href='/3osm5vq41x/c/droskop/9/0'" class="drop-down__item">
+                                    HORREUR</li>
+                                <li onclick="window.location.href='/3osm5vq41x/c/droskop/10/0'" class="drop-down__item">
+                                    POLICIER</li>
+                                <li onclick="window.location.href='/3osm5vq41x/c/droskop/11/0'" class="drop-down__item">
+                                    SCIENCE-FICTION</li>
+                                <li onclick="window.location.href='/3osm5vq41x/c/droskop/12/0'" class="drop-down__item">
+                                    THRILLER</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <li>
+                        <a href="/3osm5vq41x/c/droskop/26/0">Documentaire</a>
+                    </li>
+                    <li>
+                        <a href="/3osm5vq41x/c/droskop/3/0">Spectacle</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="columnSEARCH sticky3" style="position:fixed;">
+
+            <a class="lienrecherche" onclick="searchactive()" href="#">
+
+                <svg x="0px" y="0px" class="svgsearch" viewBox="0 0 30.239 30.239"
+                    style="enable-background:new 0 0 30.239 30.239;" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path
+                                d="M20.194,3.46c-4.613-4.613-12.121-4.613-16.734,0c-4.612,4.614-4.612,12.121,0,16.735   c4.108,4.107,10.506,4.547,15.116,1.34c0.097,0.459,0.319,0.897,0.676,1.254l6.718,6.718c0.979,0.977,2.561,0.977,3.535,0   c0.978-0.978,0.978-2.56,0-3.535l-6.718-6.72c-0.355-0.354-0.794-0.577-1.253-0.674C24.743,13.967,24.303,7.57,20.194,3.46z    M18.073,18.074c-3.444,3.444-9.049,3.444-12.492,0c-3.442-3.444-3.442-9.048,0-12.492c3.443-3.443,9.048-3.443,12.492,0   C21.517,9.026,21.517,14.63,18.073,18.074z"
+                                data-original="#000000" class="active-path" data-old_color="#000000" fill="#ffe46f" />
+                        </g>
+                    </g>
+                </svg>
+
+            </a>
+
+        </div>
+
+
+
+
+
+        <div class="row">
+
+
+
+            <div class="column5 navWrap3" style="background-color:#1f1f1f;">
+
+                <center>
+
+
+
+                    <form action="/3osm5vq41x/home/droskop" method="post" class="search">
+
+
+
+                        <input
+                            style="padding: 9px 8px; position:relative; left:-5px; font-size:15px; font-style:italic; border-radius:2px; border: 1px solid #393939; color : #979797; background-color: #2d2d2d"
+                            name="searchword" id="mod_search_searchword" maxlength="20" class="inputbox" type="text"
+                            size="20" value="" placeholder="recherche ...">
+
+                        <input type="hidden">
+
+                    </form>
+
+
+                </center>
+
+            </div>
+
+
+
+
+
+
+
+            <div class="column1" style="background-color:#1f1f1f;">
+
+
+
+
+
+
+                <b id="top1" class="navWrap4">
+                </b>
+                <center>
+                    <b
+                        style="display:inline-block; width:100%; background-color:#3c3122; padding-top:10px; padding-bottom:10px; border-top: 1px solid #3c3122; border-bottom: 1px solid #3c3122">
+                        <i><b style="color:#818181; text-transform: uppercase;">Suzume (2023) <b>
+                                    <font color="#979797"><i>HD</i></font>
+                                </b></b><b class="categoryt"><a href="/3osm5vq41x/c/droskop/2/0">ANIMATION</a></b></i>
+                    </b>
+                </center>
+
+                <div class="column13" id="column13">
+
+                    <center>
+                        <div class="column14">
+
+                            <center>
+                                <b
+                                    style="display:inline-block; width:100%; background-color:#3c3122; padding-top:10px; padding-bottom:10px;border-bottom: 1px solid #3c3122">
+                                    <i><b style="color:#818181; text-transform: uppercase;">Suzume (2023) <b>
+                                                <font color="#979797"><i>HD</i></font>
+                                            </b></b><b class="categoryt"><a
+                                                href="/3osm5vq41x/c/droskop/2/0">ANIMATION</a></b></i>
+                                </b>
+                            </center>
+
+                        </div>
+
+
+                        <div class="column15">
+                            <b
+                                style="display:none; width:100%; background-color:#3c3122; padding-top:10px; padding-bottom:10px;border-bottom: 1px solid #3c3122;">
+                                <center>
+                                    <i><b style="color:#818181">DERNIERES</b> <b style="color:#979797">CRITIQUES</b></i>
+                                </center>
+                            </b>
+                        </div>
+                    </center>
+
+                </div>
+
+
+
+                <div class="column16" id="column16" style="background-color:#1f1f1f;">
+
+                    <center>
+                        <b
+                            style="display:inline-block; width:100%; background-color:#3c3122; padding-top:10px; padding-bottom:10px; border-bottom: 1px solid #3c3122">
+                            <i><b style="color:#818181; text-transform: uppercase;">Suzume (2023) <b>
+                                        <font color="#979797"><i>HD</i></font>
+                                    </b></b><b class="categoryt"><a
+                                        href="/3osm5vq41x/c/droskop/2/0">ANIMATION</a></b></i>
+                        </b>
+                    </center>
+
+                </div>
+
+
+
+
+                <p style="text-align: center;"><img
+                        src="https://www.themoviedb.org/t/p/original/vIeu8WysZrTSFb2uhPViKjX9EcC.jpg" border="0"
+                        width="100%" /></p>
+
+
+
+                <p style="text-align: center;"><strong><span style="text-decoration: underline;"><b id="top2"
+                                style="position:relative; top:-50px; margin-bottom:-50px"></b><b
+                                style="display:inline-block; width:100%; text-align: left; font-size:12px; padding-top:5px; padding-bottom:5px; border-bottom: 1px solid #ff9f00;">
+                                <i><b style="color:#ff9f00; position:relative; left:3px">CANEVAS DU FILM</b></i>
+                            </b><br /></span></strong></p>
+                <p style="text-align: left;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    Dans une petite ville paisible de Kyushu, une jeune fille de 17 ans, Suzume, rencontre un homme qui
+                    dit voyager afin de chercher une porte. Décidant de le suivre dans les montagnes, elle découvre une
+                    unique porte délabrée trônant au milieu des ruines, seul vestige ayant survécu au passage du temps.
+                    Cédant à une inexplicable impulsion, Suzume tourne la poignée, et d'autres portes s'ouvrent alors
+                    aux quatre coins du Japon, laissant entrer toutes les catastrophes qu'elles renferment. L'homme est
+                    formel : toute porte ouverte doit être fermée. Là où elle s'est égarée se trouvent les étoiles, le
+                    crépuscule et l'aube, une voûte céleste où tous les temps se confondent. Guidée par des portes
+                    nimbées de mystère, Suzume entame un périple en vue de toutes les refermer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </p>
+                <p style="text-align: center;"><span style="text-decoration: underline;"><strong><b id="top3"
+                                style="position:relative; top:-50px; margin-bottom:-50px"></b><b
+                                style="display:inline-block; width:100%; text-align: left; font-size:12px; padding-top:5px; padding-bottom:5px; border-bottom: 1px solid #ff9f00;">
+                                <i><b style="color:#ff9f00; position:relative; left:3px">LECTEUR ILLIMITÉ</b></i>
+                            </b><br /></strong></span></p>
+                <p style="text-align: center;">
+
+
+
+
+
+                    <?php
+
+$idhtxtname = "9401".'&t=e&vid=uydf0bh4ytu87f4gswansongoi0bv5bdf4g7';
+
+
+?>
+
+
+                    <iframe width="100%" height="439" src="https://www.hls-player.net/search?q=player3&video_links=https://iptvfrenchforyou.xyz/Films/SpuerMarioBros/01.mp4&view=embed" scrolling="no"
+                        frameborder="0" allowfullscreen webkitallowfullscreen></iframe>
+
+
+
+
+
+
+
+                </p>
+                <p style="text-align: center;">
+
+                    Suzume
+
+                </p>
+                <b id="top5" style="position:relative; top:-90px; margin-bottom:-90px"></b>
+                <b id="top4" style="position:relative; top:-50px; margin-bottom:-50px"></b>
+
+
+
+
+                <b id="navWrapEND4">
+                </b>
+
+                <br /><br />
+
+
+
+
+                <div class="couleur1" id="dernieajouts">
+                    <center id="dernieresajouts">
+
+                        <b id="navWrap"
+                            style="display:inline-block; width:100%; background-color:#2a2a2a; padding-top:6px; padding-bottom:10px;">
+
+                            <svg class="svg_new_barre" style="
+    position: relative;
+    top: 4px;
+    left: -2px;
+    " id="Capa_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path fill="#818181"
+                                        d="m216 512h80c11.046 0 20-8.954 20-20s-8.954-20-20-20h-80c-11.046 0-20 8.954-20 20s8.954 20 20 20z">
+                                    </path>
+                                    <path fill="#818181"
+                                        d="m256 0c-11.046 0-20 8.954-20 20v21.435c-67.755 9.734-120 68.159-120 138.565v122.956c0 7.048-3.175 13.46-7.899 15.956-19.801 10.455-32.101 30.797-32.101 53.088 0 33.084 26.916 60 60 60h240c33.084 0 60-26.916 60-60 0-22.291-12.3-42.633-32.101-53.088-4.725-2.495-7.899-8.907-7.899-15.956v-122.956c0-70.406-52.245-128.831-120-138.565v-21.435c0-11.046-8.954-20-20-20zm100 180v122.956c0 22.142 11.197 41.809 29.222 51.327 6.648 3.51 10.778 10.299 10.778 17.717 0 11.028-8.972 20-20 20h-240c-11.028 0-20-8.972-20-20 0-7.418 4.13-14.207 10.778-17.717 18.025-9.518 29.222-29.185 29.222-51.327v-122.956c0-55.14 44.86-100 100-100s100 44.86 100 100z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <i><b style="color:#818181">DERNIERS AJOUTS</b></i>
+                        </b>
+
+                    </center>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708686288">
+
+                                    Suzume (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708637854">
+
+                                    Saw X (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708589420">
+
+                                    Spirale : L'Héritage de Saw (2021) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708540986">
+
+                                    Jigsaw (2017) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708492552">
+
+                                    Saw 3D : Chapitre final (2010) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708444118">
+
+                                    Saw VI (2009) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708395684">
+
+                                    Saw V (2008) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708347250">
+
+                                    Saw IV (2007) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708298816">
+
+                                    Saw III (2006) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708250382">
+
+                                    Saw II (2005) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708201948">
+
+                                    Saw (2004) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707766042">
+
+                                    Thomas Ngijol : L'oeil du tigre (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707814476">
+
+                                    Old Dads (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708008212">
+
+                                    Les Bonnes étoiles (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708056646">
+
+                                    Mickey et ses amis : des bonbons ou un sort (2023) <font color="#3b3021"><i>HD</i>
+                                    </font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708105080">
+
+                                    The Siren (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707717608">
+
+                                    Drone Games (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707620740">
+
+                                    Sayen : La ruta seca (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/665095688">
+
+                                    Sayen (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707669174">
+
+                                    38°5 quai des orfèvres (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707572306">
+
+                                    Le Retour (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707862910">
+
+                                    Sick Girl (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707911344">
+
+                                    L'Autre Zoey (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707959778">
+
+                                    Werewolf By Night (en couleurs) (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/708153514">
+
+                                    L'Histoire racontée par des chaussettes - Le Film (2023) <font color="#3b3021">
+                                        <i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707184834">
+
+                                    Retribution (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707523872">
+
+                                    Magnificat (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707427004">
+
+                                    57 Seconds (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707475438">
+
+                                    Jericho Ridge (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <div id="hann">
+                        <p>
+                            <span style="list-style-type:none;">
+                                <a href="/3osm5vq41x/b/droskop/707378570">
+
+                                    Stars At Noon (2023) <font color="#3b3021"><i>HD</i></font>
+
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+
+
+                    <b id="navWrapEND">
+                    </b>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+            <div class="column2" style="background-color:#1f1f1f;">
+
+
+
+
+                <div class="couleur1" id="dernierescritiques">
+
+                    <b id="navWrap1"
+                        style=" width:100%;display: block;background-color: #2a2a2a;padding-top: 5px;padding-bottom: 10px;/* border-bottom: 1px solid grey; */">
+                        <center>
+                            <i><b style="color:#818181">
+
+                                    <svg class="svg_trend_top_header" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#818181"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </b> <b style="color: #818181;position: relative;left: -6px;">TOP</b></i>
+                        </center>
+                    </b>
+
+
+
+
+
+
+                    <style>
+                        .trend_unity {
+                            border-bottom: 1px solid #3c3122;
+                            padding-bottom: 9px;
+                            padding-top: 18px;
+                            padding-left: 9px;
+                        }
+
+                        .trend_unity:hover {
+                            background-color: #3c3122;
+                        }
+
+                        .trend_info {
+                            font-size: 12px;
+                            margin-bottom: 8px;
+                            color: #8c8c8c;
+                        }
+
+                        .trend_title {
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: #e09b13;
+                        }
+
+                        .trend_ranking {
+                            font-size: 12px;
+                            margin-top: 3px;
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: black;
+                            border-radius: 3px;
+                            padding-left: 2px;
+                        }
+
+                        .icon_trend {
+
+                            margin-right: 4px;
+
+                        }
+
+                        .icon_trend_update {
+
+                            color: #5eed97;
+                            font-size: 10px;
+                            font-style: italic;
+                            position: relative;
+                            top: -1px;
+                            margin-right: 8px;
+
+                        }
+                    </style>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/708637854">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">1 . À l'affiche </div>
+
+                            <div class="trend_title">
+
+
+                                Saw X (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+                                <div class="icon_trend">
+
+                                    <svg width="17px" height="17px" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5eed97"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+
+                                <div class="icon_trend_update" style="
+ color: #5eed97;
+"> NEW</div>
+
+
+
+
+
+
+
+                                <div class="icon_trend" style="margin-left:-3px; position:relative; top:-1px">
+                                    <!--?xml version="1.0" encoding="iso-8859-1"?-->
+                                    <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                                        style="width:14px; height:14px;enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <path style="fill:#ED694A;" d="M373.499,163.809c-10.67-11.649-27.258-27.372-34.315,8.13c-2.4,12.071-8.007,21.376-12.812,28.868
+	c-5.179-26.212-20.761-53.343-35.443-71.636c-5.494-6.844-24.988-34.051-28.733-79.567c-0.559-6.793-8.628-9.983-13.675-5.401
+	c-48.232,43.784-74.706,104.002-75.689,171.795c0,0-20.084-16.929-30.995-48.423c-2.938-8.481-14.308-10.099-19.241-2.6
+	c-0.947,1.44-1.825,2.882-2.617,4.282c-37.213,65.8-55.114,145.705-38.565,220.045c27.67,124.497,210.704,159.303,307.603,81.054
+	C483.822,393.8,453.686,251.311,373.499,163.809z"></path>
+                                        <g>
+                                            <path style="fill:#D8553A;" d="M107.171,397.118c-16.357-75.135,0.957-155.818,37.296-222.648c-0.919-2.217-1.803-4.51-2.629-6.894
+		c-2.938-8.481-14.308-10.099-19.241-2.6c-0.947,1.44-1.824,2.882-2.616,4.282c-37.213,65.8-55.114,145.705-38.565,220.045
+		c12.621,56.786,57.569,94.9,111.92,112.149C150.936,480.913,117.732,445.704,107.171,397.118z"></path>
+                                            <path style="fill:#D8553A;" d="M198.716,214.75c2.009-61.527,24.263-116.697,64.093-159.079c-0.274-2.334-0.477-4.421-0.608-6.005
+		c-0.571-6.851-8.345-10.287-13.37-5.745c-46.585,42.118-74.979,101.727-75.998,172.075l8.719,6.771
+		c4.294,3.335,10.112,3.19,14.213,0.135C198.212,220.828,198.563,217.698,198.716,214.75z"></path>
+                                        </g>
+                                        <path style="fill:#F4A32C;" d="M344.242,254.818c-7.88-8.604-20.133-20.218-25.345,6.005c-1.772,8.915-5.915,15.789-9.462,21.323
+	c-3.825-19.361-15.335-39.401-26.179-52.912c-4.058-5.055-18.456-25.15-21.223-58.771c-0.413-5.018-6.372-7.373-10.1-3.989
+	c-35.625,32.339-55.18,76.819-55.905,126.891c0,0-14.835-12.504-22.893-35.766c-2.17-6.264-10.569-7.459-14.212-1.92
+	c-0.699,1.063-1.348,2.129-1.933,3.163c-27.487,48.601-40.709,107.62-28.486,162.53c20.438,91.956,155.63,117.665,227.202,59.868
+	C425.73,424.695,403.471,319.45,344.242,254.818z"></path>
+                                        <path style="fill:#E89528;" d="M153.994,428.585c-10.822-53.676,0.387-111.271,24.152-159.231
+	c-1.811-3.546-3.527-7.466-5.013-11.754c-2.17-6.264-10.569-7.46-14.212-1.921c-0.699,1.063-1.348,2.129-1.933,3.164
+	c-27.486,48.601-40.707,107.62-28.486,162.529c9.506,42.768,43.837,71.196,85.041,83.567
+	C184.268,490.258,161.218,464.464,153.994,428.585z"></path>
+                                        <path style="fill:#F4D44E;" d="M317.534,337.904c-5.334-5.824-13.63-13.687-17.158,4.065c-1.199,6.036-4.004,10.688-6.406,14.434
+	c-2.59-13.107-10.38-26.672-17.722-35.818c-2.746-3.422-12.493-17.025-14.367-39.784c-0.28-3.397-4.313-4.992-6.837-2.7
+	c-24.116,21.892-37.353,52.002-37.844,85.897c0,0-10.043-8.465-15.497-24.211c-1.469-4.24-7.154-5.049-9.62-1.3
+	c-0.474,0.719-0.912,1.441-1.309,2.141c-18.606,32.9-27.557,72.852-19.283,110.023c13.835,62.249,105.352,79.652,153.801,40.527
+	c16.591-13.398,26.878-32.277,28.964-53.16C357.405,406.388,345.232,368.129,317.534,337.904z"></path>
+                                        <path style="fill:#EAE9E8;" d="M292.749,415.006c-2.972-3.245-7.593-7.625-9.559,2.264c-0.668,3.363-2.23,5.955-3.569,8.042
+	c-1.443-7.302-5.783-14.86-9.873-19.955c-1.53-1.907-6.961-9.486-8.005-22.165c-0.156-1.893-2.404-2.78-3.809-1.505
+	c-13.435,12.197-20.811,28.972-21.084,47.856c0,0-5.595-4.716-8.634-13.489c-0.819-2.363-3.986-2.814-5.359-0.724
+	c-0.264,0.401-0.508,0.803-0.728,1.193c-10.366,18.33-15.353,40.588-10.743,61.297c10.498,47.231,96.546,45.799,101.824-7.039
+	C314.962,453.16,308.18,431.844,292.749,415.006z"></path>
+                                        <path style="fill:#F7E7A1;" d="M231.364,487.194c-4.61-18.525,0.377-38.436,10.743-54.832c0.22-0.349,0.465-0.708,0.728-1.067
+	c1.374-1.869,4.541-1.466,5.359,0.647c3.039,7.848,8.634,12.067,8.634,12.067c0.225-13.88,5.253-26.48,14.488-36.586
+	c-2.065-2.86-8.383-9.756-9.574-24.229c-0.156-1.893-2.404-2.78-3.809-1.505c-13.435,12.197-20.811,28.972-21.084,47.856
+	c0,0-5.595-4.716-8.634-13.488c-0.818-2.363-3.986-2.814-5.359-0.724c-0.264,0.401-0.508,0.803-0.728,1.193
+	c-10.366,18.329-15.353,40.588-10.743,61.297c4.266,19.195,21.792,30.731,41.168,33.515
+	C242.101,506.205,234.068,498.077,231.364,487.194z"></path>
+                                        <g>
+                                            <path style="fill:#D8553A;" d="M184.598,68.045c21.625-17.589,21.577-50.496,0-68.045C162.973,17.588,163.02,50.496,184.598,68.045
+		z"></path>
+                                            <path style="fill:#D8553A;" d="M443.793,209.213c21.625-17.589,21.577-50.496,0-68.045
+		C433.909,149.206,422.216,191.664,443.793,209.213z"></path>
+                                            <path style="fill:#D8553A;" d="M60.785,222.606c15.585-12.677,15.551-36.392,0-49.041
+		C53.662,179.358,45.234,209.958,60.785,222.606z"></path>
+                                            <path style="fill:#D8553A;" d="M330.709,117.086c15.585-12.677,15.551-36.392,0-49.041
+		C315.124,80.721,315.159,104.438,330.709,117.086z"></path>
+                                        </g>
+                                        <path style="fill:#E89528;"
+                                            d="M215.911,285.324c3.579-42.252,19.714-79.821,46.806-108.462c-0.274-2.076-0.505-4.207-0.685-6.398
+	c-0.413-5.018-6.372-7.373-10.1-3.989c-28.23,25.626-46.348,58.882-53.022,96.497l-0.01-0.003c-0.495,2.79-1.109,6.854-1.497,10.047
+	c0.001,0.003,0.002,0.005,0.004,0.008c-0.811,6.664-1.281,13.448-1.381,20.343C196.78,293.514,213.848,302.287,215.911,285.324z"></path>
+                                        <g>
+                                            <path style="fill:#E8C842;" d="M196.43,459.481c-7.355-34.725-1.091-71.755,13.461-103.84c-2.819-3.953-5.904-9.263-8.187-15.855
+		c-1.47-4.24-7.154-5.049-9.621-1.3c-0.473,0.719-0.913,1.441-1.309,2.141c-18.606,32.9-27.557,72.852-19.283,110.023
+		c6.48,29.152,29.997,48.468,58.148,56.749C213.253,496.521,200.858,480.42,196.43,459.481z"></path>
+                                            <path style="fill:#E8C842;" d="M243.751,348.824c2.438-17.425,9.565-36.624,20.784-52.675c-1.222-4.532-2.183-9.653-2.652-15.348
+		c-0.28-3.397-4.314-4.992-6.837-2.7c-15.026,13.641-25.811,30.479-31.938,49.428l-0.016-0.004
+		c-0.964,2.977-2.327,7.909-3.153,11.802c0.007-0.002,0.014-0.002,0.021-0.005c-1.692,7.944-2.633,16.188-2.756,24.675
+		C230.696,365.681,241.857,362.34,243.751,348.824z"></path>
+                                        </g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+
+                                    </svg>
+
+                                </div>
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/706652060">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">2 . À l'affiche </div>
+
+                            <div class="trend_title">
+
+
+                                Expendables 4 (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/705973984">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">3 . À l'affiche </div>
+
+                            <div class="trend_title">
+
+
+                                Mission: Impossible – Dead Reckoning Partie 1 (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/707669174">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">4 . Film . Comédie</div>
+
+                            <div class="trend_title">
+
+
+                                38°5 quai des orfèvres (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+                                <div class="icon_trend">
+
+                                    <svg width="17px" height="17px" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5eed97"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+
+                                <div class="icon_trend_update" style="
+ color: #5eed97;
+"> NEW</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/704763134">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">5 . À l'affiche </div>
+
+                            <div class="trend_title">
+
+
+                                Equalizer 3 (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/708056646">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">6 . Animation</div>
+
+                            <div class="trend_title">
+
+
+                                Mickey et ses amis : des bonbons ou un sort (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+                                <div class="icon_trend">
+
+                                    <svg width="17px" height="17px" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5eed97"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+
+                                <div class="icon_trend_update" style="
+ color: #5eed97;
+"> NEW</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/703939756">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">7 . À l'affiche </div>
+
+                            <div class="trend_title">
+
+
+                                Gran Turismo (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/707766042">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">8 . Spectacle</div>
+
+                            <div class="trend_title">
+
+
+                                Thomas Ngijol : L'oeil du tigre (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+                                <div class="icon_trend">
+
+                                    <svg width="17px" height="17px" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5eed97"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+
+                                <div class="icon_trend_update" style="
+ color: #5eed97;
+"> NEW</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/707184834">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">9 . À l'affiche </div>
+
+                            <div class="trend_title">
+
+
+                                Retribution (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+                                <div class="icon_trend">
+
+                                    <svg width="17px" height="17px" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5eed97"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+
+                                <div class="icon_trend_update" style="
+ color: #5eed97;
+"> NEW</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/701566490">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">10 . À l'affiche </div>
+
+                            <div class="trend_title">
+
+
+                                Barbie (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/708686288">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">11 . Animation</div>
+
+                            <div class="trend_title">
+
+
+                                Suzume (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+                                <div class="icon_trend">
+
+                                    <svg width="17px" height="17px" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5eed97"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+
+                                <div class="icon_trend_update" style="
+ color: #5eed97;
+"> NEW</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/707959778">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">12 . Film . Fantastique</div>
+
+                            <div class="trend_title">
+
+
+                                Werewolf By Night (en couleurs) (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+                                <div class="icon_trend">
+
+                                    <svg width="17px" height="17px" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5eed97"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+
+                                <div class="icon_trend_update" style="
+ color: #5eed97;
+"> NEW</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/708201948">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">13 . Film . Horreur</div>
+
+                            <div class="trend_title">
+
+
+                                Saw (2004)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+                                <div class="icon_trend">
+
+                                    <svg width="17px" height="17px" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5eed97"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+
+                                <div class="icon_trend_update" style="
+ color: #5eed97;
+"> NEW</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/708589420">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">14 . Film . Horreur</div>
+
+                            <div class="trend_title">
+
+
+                                Spirale : L'Héritage de Saw (2021)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+                                <div class="icon_trend">
+
+                                    <svg width="17px" height="17px" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5eed97"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+
+                                <div class="icon_trend_update" style="
+ color: #5eed97;
+"> NEW</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/705150606">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">15 . À l'affiche </div>
+
+                            <div class="trend_title">
+
+
+                                Le Manoir hanté (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/497756218">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">16 . Film . Fantastique</div>
+
+                            <div class="trend_title">
+
+
+                                Harry Potter à l'école des sorciers (2001)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+                                <div class="icon_trend">
+
+                                    <svg width="17px" height="17px" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5eed97"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+
+                                <div class="icon_trend_update" style="
+ color: #5eed97;
+"> NEW</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/697304298">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">17 . À l'affiche </div>
+
+                            <div class="trend_title">
+
+
+                                Élémentaire (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/707427004">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">18 . Film . Thriller</div>
+
+                            <div class="trend_title">
+
+
+                                57 Seconds (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+                                <div class="icon_trend">
+
+                                    <svg width="17px" height="17px" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5eed97"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+
+                                <div class="icon_trend_update" style="
+ color: #5eed97;
+"> NEW</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/705005304">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">19 . À l'affiche </div>
+
+                            <div class="trend_title">
+
+
+                                La Nonne : La Malédiction de Sainte-Lucie (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/706119286">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">20 . Film . Science-Fiction</div>
+
+                            <div class="trend_title">
+
+
+                                La Guerre des mondes : l'invasion (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/702874208">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">21 . À l'affiche </div>
+
+                            <div class="trend_title">
+
+
+                                Blue Beetle (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/698757318">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">22 . À l'affiche </div>
+
+                            <div class="trend_title">
+
+
+                                En eaux très troubles (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+                    <a style="text-decoration: none;" href="/3osm5vq41x/b/droskop/665095688">
+
+
+                        <div class="trend_unity">
+
+
+
+                            <div class="trend_info">23 . Film . Thriller</div>
+
+                            <div class="trend_title">
+
+
+                                Sayen (2023)
+
+
+                            </div>
+
+
+                            <div class="trend_ranking">
+
+
+
+
+
+                                <div class="icon_trend">
+
+                                    <svg width="17px" height="17px" viewBox="0 0 52 52"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5eed97"
+                                            d="M50.1,30.56a1.16,1.16,0,0,1-2,.82L42.73,26,30.32,36.65a3.39,3.39,0,0,1-4.92,0l-7.49-8.54L4.57,39.81a1.13,1.13,0,0,1-1.64,0l-.59-.59a1.13,1.13,0,0,1,0-1.64L15.46,19.68a3.39,3.39,0,0,1,4.92,0l7.49,7.49,7.61-8.78-4.92-4.45a1.26,1.26,0,0,1,.82-2.11H47.76A2.35,2.35,0,0,1,50,14.3Z">
+                                        </path>
+                                    </svg>
+
+                                </div>
+
+                                <div class="icon_trend_update" style="
+ color: #5eed97;
+"> NEW</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <b id="navWrapEND1"></b>
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    </div>
+
+    <script>
+
+
+
+
+
+        $(document).scroll(function () {
+            //stick nav to top of page
+            var y = $(this).scrollTop();
+            var navWrap = $('#navWrap').offset().top;
+            var navWrapEND = $('#navWrapEND').offset().top;
+
+            var navWrap = navWrap - 50;
+            var navWrapEND = navWrapEND - 50;
+
+            var navWrap4 = $('.navWrap4').offset().top;
+            var navWrapEND4 = $('#navWrapEND4').offset().top;
+
+            var navWrap4 = navWrap4 - 50;
+            var navWrapEND4 = navWrapEND4 - 50;
+
+
+
+            var navWrap3 = $('.navWrap3').offset().top;
+            var navWrapEND3 = $('#navWrapEND3').offset().top;
+
+            var navWrap3 = navWrap3 - 50;
+            var navWrapEND3 = navWrapEND3 - 50;
+
+            var navWrap1 = $('#navWrap1').offset().top;
+            var navWrapEND1 = $('#navWrapEND1').offset().top;
+
+            var navWrap1 = navWrap1 - 50;
+            var navWrapEND1 = navWrapEND1 - 50;
+
+
+
+            if (y > navWrapEND1) {
+                $('#column8').removeClass('sticky');
+            }
+            else if (y > navWrap1) {
+                $('#column8').addClass('sticky');
+            }
+            else {
+                $('#column8').removeClass('sticky');
+            }
+
+
+
+            if (y > navWrapEND) {
+                $('#column7').removeClass('sticky');
+            }
+            else if (y > navWrap) {
+                $('#column7').addClass('sticky');
+            }
+            else {
+                $('#column7').removeClass('sticky');
+            }
+
+
+            if (y > navWrapEND4) {
+                $('#column13').removeClass('sticky1');
+            }
+            else if (y > navWrap4) {
+                $('#column13').addClass('sticky1');
+            }
+            else {
+                $('#column13').removeClass('sticky1');
+            }
+
+            if (y > navWrapEND4) {
+                $('#column16').removeClass('sticky');
+            }
+            else if (y > navWrap4) {
+                $('#column16').addClass('sticky');
+            }
+            else {
+                $('#column16').removeClass('sticky');
+            }
+
+
+
+
+
+
+            if (y > navWrapEND3) {
+                $('#buttonhaut').addClass('sticky3');
+                $('#buttonhaut').removeClass('sticky2');
+            }
+            else if (y > navWrap3) {
+                $('#buttonhaut').addClass('sticky2');
+                $('#buttonhaut').removeClass('sticky3');
+            }
+            else {
+                $('#buttonhaut').addClass('sticky3');
+                $('#buttonhaut').removeClass('sticky2');
+            }
+
+
+
+            if (y > navWrapEND3) {
+                $('.columnSEARCH').addClass('sticky3');
+                $('.columnSEARCH').removeClass('sticky2');
+            }
+            else if (y > navWrap3) {
+                $('.columnSEARCH').addClass('sticky2');
+                $('.columnSEARCH').removeClass('sticky3');
+            }
+            else {
+                $('.columnSEARCH').addClass('sticky3');
+                $('.columnSEARCH').removeClass('sticky2');
+            }
+
+
+
+
+        });
+
+
+
+
+        $(document).ready(function () {
+
+            $("#buttonlastcritique").click(function () {
+
+
+                $('#dernierescritiques').removeClass('couleur1');
+
+                $("#dernierescritiques").addClass("couleur2");
+
+
+                setTimeout(function () {
+
+                    $("#dernierescritiques").removeClass("couleur2");
+                    $("#dernierescritiques").addClass("couleur1");
+
+                }, 1000);
+
+
+
+            });
+
+
+            $("#buttonlastajout").click(function () {
+
+
+                $('#dernieajouts').removeClass('couleur1');
+
+                $("#dernieajouts").addClass("couleur2");
+
+
+                setTimeout(function () {
+
+                    $("#dernieajouts").removeClass("couleur2");
+                    $("#dernieajouts").addClass("couleur1");
+
+                }, 1000);
+
+
+
+            });
+
+
+        });
+
+        $(document).ready(function () {
+
+
+
+            const $menu = $('.drop-down');
+
+            $(document).mouseup(e => {
+                if (!$menu.is(e.target) // if the target of the click isn't the container...
+                    && $menu.has(e.target).length === 0) // ... nor a descendant of the container
+                {
+                    $menu.removeClass('drop-down--active');
+                }
+            });
+
+            $('.drop-down').on('click', () => {
+                $menu.toggleClass('drop-down--active');
+            });
+
+
+
+
+
+        });
+
+
+
+
+
+    </script>
+
+
+    <b id="navWrapEND3">
+    </b>
+
+
+</body>
+
+</html>
